@@ -29,7 +29,7 @@ namespace XUnitTestProject_15._02._2022
             [InlineData(-1.7976931348, -1.79769313486, -1.797693134862, -9.695101820951258)]
             [InlineData(-1.7976931348623, -1.797693134862329, -1.7976931348623299, -9.69510182139324)]                      
 
-            public void TestHW(double item1, double item2, double item3, double expected)
+            public void TestHomeWork(double item1, double item2, double item3, double expected)
             {
                 double actual = Class1.ForTest(item1, item2, item3);
                 Assert.Equal(expected, actual);
